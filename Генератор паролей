@@ -1,0 +1,23 @@
+import random
+digits = "0123456789"
+lowercase_letters = "abcdefghijklmnopqrstuvwxyz"
+uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+punctuation = "!#$%&*+-=?@^_"
+chars = ''
+print("Сколько паролей сгенерировать?")
+n = int(input())
+print("Длина одного пароля?")
+length = int(input())
+print("Включать ли цифры 0123456789?")
+digits = input()
+print("Включать ли прописные буквы ABCDEFGHIJKLMNOPQRSTUVWXYZ?")
+capital = input()
+print("Включать ли строчные буквы abcdefghijklmnopqrstuvwxyz?")
+small = input()
+print("Включать ли символы !#$%&*+-=?@^_?")
+symbols = input()
+print("Исключать ли неоднозначные символы il1Lo0O?")
+amb_sym = input()
+def generate_password(length, chars):
+    for i in range(n)
+        return password
